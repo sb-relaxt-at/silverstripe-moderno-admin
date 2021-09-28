@@ -83,6 +83,6 @@ class CMSMainEditFormExtension extends LeftAndMainExtension
      */
     private function hasSecureAssets()
     {
-        return Object::has_extension('File', 'SecureFileExtension');
+        return SS_Object::has_extension('File', 'SecureFileExtension');
     }
 }
